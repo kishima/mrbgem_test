@@ -10,7 +10,7 @@ mrb_value mrb_mrbgem_test_init(mrb_state *mrb, mrb_value self)
 }
 
 
-void mrb_mruby_mrbgem_test_gem_init(mrb_state *mrb)
+void mrb_mrbgem_test_gem_init(mrb_state *mrb)
 {
   struct RClass *mrbgem_test;
   mrbgem_test = mrb_define_class(mrb, "Mrbgem_test", mrb->object_class);
@@ -18,7 +18,7 @@ void mrb_mruby_mrbgem_test_gem_init(mrb_state *mrb)
   DONE;
 }
 
-void mrb_mruby_mrbgem_test_gem_final(mrb_state *mrb)
+void mrb_mrbgem_test_gem_final(mrb_state *mrb)
 {
 }
 
