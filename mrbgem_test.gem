@@ -1,0 +1,7 @@
+name: mrbgem_test
+description: Mrbgem_test class
+author: kishima
+website: https://github.com/kishima/mrbgem_test
+protocol: git
+repository: https://github.com/kishima/mrbgem_test.git
+license: MIT
